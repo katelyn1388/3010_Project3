@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FireMovies Animation</title>
+    <link href="./css/styles.css"/>
+    <script src="./js/home.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+</head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+
+
+    /*@viewport {*/
+    /*    width: 100 ww;*/
+    /*    zoom: 1.0 ;*/
+    /*}*/
+
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+    body {
+        background-color: #FFD580;
+    }
+
+
+
+    .row.content {height: 450px}
+
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+        .sidenav {
+            height: auto;
+            padding: 15px;
+        }
+        .row.content {height:auto;}
+    }
+
+
+    h1 {text-align: center;}
+
+
+
+
+    div_tenet {
+        font-weight: bold;
+        position: absolute;
+        animation: mytenet 3s infinite;
+    }
+
+    div_inter {
+        font-weight: bold;
+        position: absolute;
+        animation: moveInterstellar 3s infinite;
+    }
+
+    div_intime {
+        font-weight: bold;
+        position: absolute;
+        animation: moveInTime 3s infinite;
+    }
+
+    div_inception {
+        font-weight: bold;
+        position: absolute;
+        animation: moveInception 3s infinite;
+    }
+
+    div_pride {
+        font-weight: bold;
+        position: absolute;
+        animation: movePride 3s infinite;
+    }
+
+    div_prestige {
+        font-weight: bold;
+        position: absolute;
+        animation: movePrestige 3s infinite;
+    }
+
+    div_phantom {
+        font-weight: bold;
+        position: absolute;
+        animation: movePhantom 3s infinite;
+    }
+
+    div_crazy {
+        font-weight: bold;
+        position: absolute;
+        animation: moveCrazy 3s infinite;
+    }
+
+    div_fire {
+        font-weight: bold;
+        position: absolute;
+        animation: moveFire 3s infinite;
+    }
+
+
+
+    #div1 {animation-timing-function: ease;}
+    #div2 {animation-timing-function: ease;}
+    #div3 {animation-timing-function: ease;}
+    #div4 {animation-timing-function: ease;}
+    #div5 {animation-timing-function: ease;}
+    #div6 {animation-timing-function: ease;}
+    #div7 {animation-timing-function: ease;}
+    #div8 {animation-timing-function: ease;}
+
+
+    @keyframes mytenet {
+        from {left: 600px;} from {top: 120px;}
+        to {left: 450px;}
+    }
+
+    @keyframes moveInterstellar {
+        from {left: 600px;} from {top: 120px;}
+        to {left: 450px;} to {top: 580px;}
+    }
+
+    @keyframes moveInTime {
+        from {left: 600px;} from {top: 120px;}
+        to {left: 750px;} to {top: 120px;}
+    }
+
+    @keyframes moveInception {
+        from {left: 600px;} from {top: 120px;}
+        to{left: 600px;} to {top: 120px;}
+    }
+
+    @keyframes movePride {
+        from {left: 600px;} from {top: 120px;}
+        to {left: 450px;} to {top: 350px;}
+    }
+
+    @keyframes movePrestige {
+        from {left: 600px;} from {top: 120px;}
+        to {left: 600px;} to {top: 580px;}
+    }
+
+    @keyframes movePhantom {
+        from {left: 600px;} from {top: 120px;}
+        to {left: 750px;} to {top: 350px;}
+    }
+
+    @keyframes moveCrazy {
+        from {left: 600px;} from {top: 120px;}
+        to {left: 750px;} to {top: 580px;}
+    }
+
+    @keyframes moveFire {
+        from {left: 600px;} from {top: 120px;}
+        to {left: 600px;} to {top: 350px;}
+    }
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="https://thumbs.dreamstime.com/b/illustration-
+                        vector-graphic-fire-film-perfect-to-use-cinema-logo-214149086.jpg" alt="Fire Movies Logo" width="40" height="35"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="registration.php">Register</a></li>
+                <li class="active"><a href="animation.html">Animation</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<h1>Animation</h1>
+
+<div_tenet id="div1">
+    <img src="https://m.media-amazon.com/images/M/MV5BYzg0NGM2NjAtNmIxOC00MDJmLTg5ZmYtYzM0MTE4NWE2NzlhXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg" alt="Tenet" width="100" height="180"/>
+</div_tenet>
+
+<div_inter id="div2">
+    <img src="https://m.media-amazon.com/images/I/A1JVqNMI7UL._SL1500_.jpg" alt="Interstellar" width="100" height="180"/>
+</div_inter>
+
+<div_intime id="div3">
+    <img src="https://m.media-amazon.com/images/M/MV5BMjA3NzI1ODc1MV5BMl5BanBnXkFtZTcwMzI5NjQwNg@@._V1_.jpg" alt="InTime" width="100" height="180"/>
+</div_intime>
+
+<div_inception id="div4">
+    <img src="https://m.media-amazon.com/images/M/MV5BZGFjOTRiYjgtYjEzMS00ZjQ2LTkzY2YtOGQ0NDI2NTVjOGFmXkEyXkFqcGdeQXVyNDQ5MDYzMTk@._V1_.jpg" alt="Inception" width="100" height="180"/>
+</div_inception>
+
+<div_pride id="div5">
+    <img src="https://m.media-amazon.com/images/M/MV5BMTA1NDQ3NTcyOTNeQTJeQWpwZ15BbWU3MDA0MzA4MzE@._V1_.jpg" alt="Pride and Prejudice" width="100" height="180"/>
+</div_pride>
+
+<div_prestige id="div6">
+    <img src="https://m.media-amazon.com/images/I/51wILNNX2VL._SY445_.jpg" alt="The Prestige" width="100" height="180"/>
+</div_prestige>
+
+<div_phantom id="div7">
+    <img src="https://www.cheapdigitalcodes.com/wp-content/uploads/2014/04/cover-crazy-stupid-love.jpg" alt="Crazy, Stupid, Love" width="100" height="180"/>
+</div_phantom>
+
+<div_crazy id="div8">
+    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7059/7059675_so.jpg" alt="Phantom of the Opera" width="100" height="180"/>
+</div_crazy>
+
+<div_fire id="div9">
+    <img src="https://thumbs.dreamstime.com/b/illustration-vector-graphic-fire-film-perfect-to-use-cinema-logo-214149086.jpg" alt="Fire" width="100" height="180"/>
+</div_fire>
+
+
+
+</body>
+</html>
